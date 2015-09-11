@@ -1,0 +1,9 @@
+App Name: Find and Replace | Brian Lau | September 11, 2015
+
+Insert a sentence, then find and replace words in that sentence.
+
+Instructions:
+1. Git clone https://github.com/blau08/find_and_replace_JS.git
+2. Enjoy
+
+Technology Used: Javascript, CSS, Mocha and Chai for testing.
