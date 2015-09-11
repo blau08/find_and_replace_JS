@@ -11,3 +11,18 @@ var find_and_replace = function(input, findString, replaceString) {
   newString = newString.join(" ");
   return newString;
 };
+
+$(document).ready(function() {
+  $("form#find_and_replace").submit(function(event) {
+    var input = $("input#input").val();
+    // debugger;
+    var findString = ($("input#findString").val());
+    var replaceString = ($("input#replaceString").val());
+    var result = find_and_replace(input, findString, replaceString);
+
+    $(".result").text(result);
+
+    $("#result").show();
+    event.preventDefault();
+  });
+});
